@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "torch_diag"
+version = "0.0.1"
+authors = [
+    { name = "Vinay Agarwal", email = "vinkaga@gmail.com" },
+]
+description = "PyTorch diagnostics for neural network models"
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+requires-python = ">=3.8.1"
+dependencies = [
+    "pytorch"
+]
+
+[project.urls]
+Homepage = "https://github.com/vinkaga/pytorch-diag"
+Issues = "https://github.com/vinkaga/pytorch-diag/issues"
